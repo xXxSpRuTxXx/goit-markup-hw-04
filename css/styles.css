@@ -12,9 +12,8 @@ body {
   background-color: #ffffff;
   line-height: 1.5;
   font-size: 16px;
-  max-width: 1440px;
-  /* height: 3300px; */
-  margin: 0 auto;
+  letter-spacing: 0.02em;
+  margin: 0;
   padding: 0;
 }
 
@@ -216,6 +215,8 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -393,6 +394,11 @@ p {
 }
 .team-socials-item {
 }
+
+.team-socials-img {
+  fill: #f4f4fd;
+}
+
 .team-socials-link {
   display: flex;
   align-items: center;
@@ -512,7 +518,7 @@ p {
 /* #region Footer */
 .footer-container {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
   justify-content: flex-start;
   flex-direction: row;
   /* gap: 24px; */
@@ -523,7 +529,7 @@ p {
   background-color: #2e2f42;
   color: #f4f4fd;
   padding-top: 100px;
-  /* padding-bottom: 100px; */
+  padding-bottom: 100px;
   display: flex;
   align-items: flex-start;
 }
@@ -547,7 +553,6 @@ p {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-bottom: 132px;
   margin-left: 120px;
 }
 .footer-socials-title {
@@ -563,6 +568,11 @@ p {
 }
 /* .team-socials-item {
 } */
+
+.footer-socials-img {
+  fill: #f4f4fd;
+}
+
 .footer-socials-link {
   display: flex;
   align-items: center;
