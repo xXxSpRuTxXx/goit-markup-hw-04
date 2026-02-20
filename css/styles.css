@@ -148,6 +148,10 @@ p {
   position: relative;
 }
 
+.navigation-link.current {
+  color: #404bbf;
+}
+
 .navigation-link.current::after {
   content: '';
   position: absolute;
@@ -158,6 +162,7 @@ p {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-link:hover,
 .navigation-link:focus {
@@ -494,7 +499,7 @@ p {
 }
 
 .portfolio-item:hover .portfolio-overlay {
-  transform: translateY(0); /* піднімається вгору при hover */
+  transform: translateY(0);
 }
 
 .overlay-text {
