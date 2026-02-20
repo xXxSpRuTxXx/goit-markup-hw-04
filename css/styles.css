@@ -360,11 +360,10 @@ p {
 .team-img {
   display: block;
   max-width: 100%;
-  margin-bottom: 32px;
 }
 
 .team-item-text {
-  padding: 0 16px;
+  padding: 32px 16px;
 }
 
 .team-subtitle {
@@ -389,7 +388,6 @@ p {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-bottom: 32px;
   list-style: none;
 }
 .team-socials-item {
@@ -555,10 +553,11 @@ p {
   justify-content: flex-start;
   margin-left: 120px;
 }
-.footer-socials-title {
+.footer-socials-text {
   color: #fff;
   margin-bottom: 16px;
   margin-top: 0;
+  font-weight: 500;
 }
 .footer-socials-list {
   display: flex;
